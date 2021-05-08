@@ -270,6 +270,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\TEMP\ClientDependency\NB-IRUL-72db72983b44ff7ba5306d9355b4e5a3-map.xml" />
+    <Content Include="App_Data\TEMP\ClientDependency\NB-IRUL-e30d6be25ce53066c5aa7e3aefa2bb62-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
     <Content Include="config\Lang\da-DK.user.xml" />
@@ -291,6 +294,8 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
+    <Content Include="Views\About.cshtml" />
+    <Content Include="Views\Partials\pageHeader.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -308,6 +313,54 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.NB-IRUL.20210504.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.NB-IRUL.20210505.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.NB-IRUL.20210506.json" />
+    <Content Include="App_Data\Models\all.dll.path" />
+    <Content Include="App_Data\Models\models.hash" />
+    <Content Include="App_Data\packages\createdPackages.config" />
+    <Content Include="App_Data\packages\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_38add51a627c4f41b90e314c49cd8c32.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_40cd6c116f854e0183726dc8e4de3db4.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_4b108f543648459d8ad6b79e0fe1bd18.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_7a4f54df3e1a45d8889c55cacd48e7ad.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_e79c380390394fd992ef0df9bd8991a6.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_f63be1b77e30464da2590d927fab33b2.cdJ" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments_a" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_1.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_1_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_3.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_3_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_4.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_4_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_5.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_6.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_6_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_7.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments_d" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.fdt" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.fdx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.tvd" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.tvf" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_a.tvx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments_1" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Content.db" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Media.db" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.NB-IRUL.hash" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.NB-IRUL.list" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -321,12 +374,28 @@
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\Partials\Navigation\SubNavigation.cshtml" />
+    <Content Include="Views\Partials\Navigation\TopNavigation.cshtml" />
+    <Content Include="Views\Partials\Navigation.cshtml" />
+    <Content Include="Views\Partials\footer.cshtml" />
+    <Content Include="Views\MacroPartials\FeaturedProducts.cshtml" />
+    <Content Include="Views\MacroPartials\LatestBlogposts.cshtml" />
+    <Content Include="Views\Partials\SectionHeader.cshtml" />
+    <Content Include="Views\Partials\latestArticles.cshtml" />
+    <Content Include="Views\Partials\CategoryLinks.cshtml" />
+    <Content Include="Views\ArticleList.cshtml" />
+    <Content Include="Views\Article.cshtml" />
+    <Content Include="Views\Content.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\TEMP\FileUploads\" />
+    <Folder Include="App_Data\TEMP\Install\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
